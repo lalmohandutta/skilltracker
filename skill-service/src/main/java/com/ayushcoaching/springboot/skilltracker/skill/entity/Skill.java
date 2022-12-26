@@ -1,4 +1,4 @@
-package com.ayushcoaching.springboot.skilltracker.profile.entity;
+package com.ayushcoaching.springboot.skilltracker.skill.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,6 +22,8 @@ public class Skill {
     private String skillName;
 
     private Integer proficiencyLevel;
+
+    private Long profileId;
 
 
 }
